@@ -1,0 +1,38 @@
+linters:
+  disable-all: true
+  enable:
+    - "asciicheck"
+    - "bodyclose"
+    - "dogsled"
+    - "errcheck"
+    - "errorlint"
+    - "exhaustive"
+    - "exportloopref"
+    - "gofmt"
+    - "goheader"
+    - "goimports"
+    - "gomodguard"
+    - "goprintffuncname"
+    - "gosec"
+    - "gosimple"
+    - "govet"
+    - "ineffassign"
+    - "makezero"
+    - "misspell"
+    - "nakedret"
+    - "noctx"
+    - "nolintlint"
+    - "paralleltest"
+    - "prealloc"
+    - "predeclared"
+    - "revive"
+    - "sqlclosecheck"
+    - "staticcheck"
+    - "stylecheck"
+    - "typecheck"
+    - "unconvert"
+    - "unused"
+    - "whitespace"
+linters-settings:
+  misspell:
+    locale: UK
